@@ -1,7 +1,5 @@
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
-from credentials import SPOTIPY_CLIENT_ID
-from credentials import SPOTIPY_CLIENT_SECRET
 from datetime import date, datetime, timedelta
 import mysql.connector
 
