@@ -2,7 +2,7 @@ import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 from datetime import date, datetime, timedelta
 import mysql.connector
-
+#this is a test
 auth_manager = SpotifyClientCredentials('f3dc4f3802254be091c8d8576961bc9d', 'b51d135ad7104add8f71933197e9cc14')
 sp = spotipy.Spotify(auth_manager=auth_manager)
 
